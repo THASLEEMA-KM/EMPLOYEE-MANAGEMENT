@@ -6,6 +6,7 @@ function Home({ addEmployeeResponse }) {
     const [deleteEmployeeResponse, setDeleteEmployeeResponse] = useState("");
     const [allEmployees, setAllEmployees] = useState([]);
     const [show, setShow] = useState(false);
+    
     const [currentEmployee, setCurrentEmployee] = useState({
         
         uid:"",
